@@ -65,12 +65,12 @@ resample = makeResampleDesc("CV", iters = 3L)
 measure = acc
 
 set.seed(123)
-dt_tuneparam <- tuneParams(learner="classif.rpart“, 
-task=d.tree.params,
+dt_tuneparam <- tuneParams(learner = "classif.rpart“, 
+task = d.tree.params,
 resampling = resample, 
 measures = measure, 
-par.set=param_grid, 
-coutrol=control_grid, 
+par.set = param_grid, 
+coutrol = control_grid, 
 show.info = TRUE)
 
 param_grid_multi <- makeParamSet(
@@ -83,8 +83,8 @@ dt_tuneparam_multi ‹- tuneParams(learner=“classif.rpart“,
 task = d.tree.params,
 resampling = resample, 
 measures = measune, 
-par.set=param_grid_multi, 
-control=control_grid, 
+par.set = param_grid_multi, 
+control = control_grid, 
 show.info = TRUE)
 
 best_parameters_multi = setHyperPars( 
