@@ -2,8 +2,8 @@
 
 InstaII.packages( "caret" )
 install.packages(“rio“)
-insta11. packages( "n1r" )
-insta11. packages( "Metrlcs" )
+insta11. packages( "m1r" )
+insta11. packages( "Metrics" )
 install.packages(“rpart“)
 install.packages(“rpart.plot”)
 install.packages(“rpart.plot”)
